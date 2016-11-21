@@ -1,0 +1,324 @@
+/* reset*/
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+*{margin: 0;padding:0;border:none;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color:unset;}
+/*保证hover效果主红色，如果有需要用选择器再改*/
+a:hover{color: #ec0608;}
+body{font-family: "Microsoft YaHei";}
+i{font-style: normal;display: inline-block;}
+
+
+/*头部*/
+header{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 20px;
+}
+.logo{
+	width: 83px;
+	height: 65px;
+	background-image: url(../images/Logo.png);
+	position: relative;
+	top: 33px;
+}
+h1{
+	display: inline;
+	font-size: 36px;
+	color: #30a56a;
+	position: relative;
+	top: -10px;
+	left: 104px;
+}
+header div:nth-child(3){
+	position: absolute;
+	top: 73px;
+	left: 689px;
+}
+header div:nth-child(3) span{
+	position: relative;
+	left: 10px;
+	top: -2px;
+	font-size: 18px;
+	color: #ec0608;
+}
+header div:nth-child(4){
+	float: right;
+	font-size: 14px;
+	margin-top: 15px;
+	color: #646464;
+}
+header div a:hover{
+	color: #646464;
+	text-decoration: underline;
+}
+
+.Nav{
+	width: 100%;
+	height: 46px;
+	background-color: #a4a7ad;
+}
+.Nav_div{
+	min-width: 1200px;
+	width: 988px;
+	height: 46px;
+	padding: 0 106px;
+	margin: 0 auto;
+}
+
+.Nav_div >a{
+	display: block;
+	width: 140px;
+	height: 46px;
+	font-size: 16px;
+	color: #fdfafa;
+	text-align: center;
+	line-height: 46px;
+	float: left;
+}
+.Nav_div >a:hover{
+	color: #fdfafa;
+}
+
+/*onmouse效果*/
+.Nav_div_a{ 
+	border-right: 1px solid transparent;
+	background: #30a56a;
+}
+/*已跳转到得标签 前后样式（用于指定好的a标签）*/
+/* 用于nav_div中得 指定a标签的前一个i */
+#i_touMing{
+	background: transparent;
+}
+/* 用于nav_div中得 指定a标签的后一个i */
+#i_none{
+	display: none;
+}
+/* 用于nav_div中得 指定a标签*/
+#Nav_div_a{
+	background: #30a56a;
+	border-right: 1px solid transparent;
+}
+
+.Nav_div i{
+	display: block;
+	float: left;
+	width: 1px;
+	height: 26px;
+	margin: 10px 0;
+	background: linear-gradient(transparent 0%,#bdbec3 50%,transparent 100%);
+}
+.Nav_div i:before{
+	content:'';
+	display: block;
+	width: 1px;
+	height: 26px;
+	margin-left: 1px;
+	background:linear-gradient(transparent 0%,#929499 50%,transparent 100%); 
+}
+
+/*轮播图*/
+#Sec{
+	width: 100%;
+	height: 300px;
+	border-top: 1px solid #e1e1e1;
+	position: relative;
+	overflow: hidden;
+}
+#Sec ul{
+	list-style:none;
+	height: 300px;
+	position: absolute;
+	
+}
+#Sec ul li{
+	float: left;
+	width: 500px;
+	height: 300px;
+	padding: 0 5px;
+}
+#Sec >a{
+	display: block; 
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+}
+#Sec .Sec_prev{
+	margin-left: -600px;
+}
+#Sec .Sec_next{
+	margin-left: 400px;
+}
+
+/*侧边栏 产品分类*/
+section{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	/*margin-bottom: 60px;*/
+	overflow: hidden;
+}
+/*左边*/
+.section_l{
+	float: left;
+}
+.display ,.category{
+	width: 240px;
+	height: 67px;
+	background: #a4a7ad;
+	color: white;
+	text-align: center;
+	overflow: hidden;	
+}
+.display,.category div:nth-child(1){
+	line-height: 28px;
+	font-size: 28px;
+	margin: 13px 0 3px 0;
+}
+.display,.category div:nth-child(2){
+	font-size: 14px;
+	line-height: 14px;
+}
+.category div:nth-child(1){
+
+}
+.tab,.tab_us{
+	width: 240px;
+	height: 681px;
+	box-sizing: border-box;
+	border-left:1px solid lightgray;
+	border-right:1px solid lightgray;
+	border-bottom:1px solid lightgray;
+}    
+	/*联系我们*/
+.tab,.tab_us li{
+	padding: 0 26px;
+	font-size: 18px;
+}
+.tab a{
+	font-size: 20px;
+	height: 44px;
+	line-height: 45px;
+	display: block;
+	width: 188px;
+	color: #212121;
+}
+.tab a:hover{
+	color: #30a56a;
+}
+.tab a:hover .jiantou{
+	transform: rotateZ(90deg);	
+}
+.tab .noborder{
+	border-bottom:0px solid;
+}
+.jiantou{
+	width: 7px;
+	height: 12px;
+	background: url(../images/jiantou.png);
+	margin-top: 16px;
+	transition: 0.3s;
+}
+.text{
+	width: 165px;
+	margin-left: 13px;
+}
+.tab li a div{
+	float: left;
+}
+.gray_line{
+	width: 188px;
+	height: 1px;
+	background: linear-gradient(left,white 0%,lightgray 50%,white 100%);
+    background: -webkit-linear-gradient(left,white 0%,lightgray 50%,white 100%);
+    background: -moz-linear-gradient(left,white 0%,lightgray 50%,white 100%);
+    background: -ms-linear-gradient(left,white 0%,lightgray 50%,white 100%);
+    background: -o-linear-gradient(left,white 0%,lightgray 50%,white 100%);
+
+}
+/* 联系我们 tab_us */
+.tab_us{
+	height: 189px;
+	padding-top: 12px;
+}
+.tab_us span{
+	color: #30a56a;
+}
+.tab_us li{
+	padding: 0 6px;
+	margin-bottom: 12px;
+}
+.tab_us li:nth-child(4){
+	margin-bottom: 20px;
+}
+
+/* 底部*/
+footer{
+	width: 100%;
+	min-width: 1200px;
+	height: 186px;
+	background-color: #a4a7ad;
+}
+footer p{
+	color:#f1f2f2;
+}
+.footer_about{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footer_l{
+	width:527px;
+	height: 142px;
+	margin-left: 70px; 
+	color:#f1f2f2;
+	font-family: "Microsoft YaHei";
+	float: left;
+}
+.footer_l div{
+	margin-top: 50px
+}
+.footer_l a{
+	color:#f1f2f2;
+}
+
+.footer_l p{
+	margin-top: 16px;
+}
+.footer_l a:hover{
+	color:#f1f2f2;
+	text-decoration: underline;
+}
+.footer_c{
+	width: 153px;
+	padding-top: 87px;/* psd中是91px,如果设置91px最下边的高度就不协调了*/
+	margin-left: 181px;
+	font-family: "Microsoft YaHei";
+	color:#f1f2f2;
+	float: left;
+}
+.footer_c p{
+	font-size: 18px;
+}
+.footer_c span{
+	display: inline-block;
+	font-size: 24px;
+	margin-top:9px; 
+}
+.footer_r{
+	float: left;
+	margin-left: 62px;
+}
+.footer_r img{
+	width: 127px;
+	height: 110px;
+	margin-top: 6px;
+	margin-bottom: 8px;
+}
+.footer_r p{
+	margin-left: 3px;
+}

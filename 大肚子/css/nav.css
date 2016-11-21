@@ -1,0 +1,73 @@
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+/*导航*/
+.Nav{
+	width: 100%;
+	min-width: 1200px;
+	height: 46px;
+	background-color: #a4a7ad;
+	font-family: "Microsoft Yahei";
+}
+.Nav_div{
+	width: 988px;
+	height: 46px;
+	padding: 0 106px;
+	margin: 0 auto;
+}
+.Nav_div >a{
+	display: block;
+	width: 140px;
+	height: 46px;
+	font-size: 16px;
+	color: #fdfafa;
+	text-align: center;
+	line-height: 46px;
+	float: left;
+}
+.Nav_div >a:hover{
+	color: #fdfafa;
+}
+/*onmouse效果*/
+.Nav_div_a{ 
+	border-right: 1px solid transparent;
+	background: #30a56a;
+}
+/*已跳转到得标签 前后样式（用于指定好的a标签）*/
+/* 用于nav_div中得 指定a标签的前一个i */
+#i_touMing{
+	background: transparent;
+}
+/* 用于nav_div中得 指定a标签的后一个i */
+#i_none{
+	display: none;
+}
+/* 用于nav_div中得 指定a标签*/
+#Nav_div_a{
+	background: #30a56a;
+	border-right: 1px solid transparent;
+}
+.Nav_div i{
+	display: block;
+	float: left;
+	width: 1px;
+	height: 26px;
+	margin: 10px 0;
+	background: linear-gradient(transparent 0%,#bdbec3 50%,transparent 100%);
+	background: -webkit-linear-gradient(transparent 0%,#bdbec3 50%,transparent 100%);
+	background: -moz-linear-gradient(transparent 0%,#bdbec3 50%,transparent 100%);
+	background: -o-linear-gradient(transparent 0%,#bdbec3 50%,transparent 100%);
+	background: -ms-linear-gradient(transparent 0%,#bdbec3 50%,transparent 100%);
+
+}
+.Nav_div i:before{
+	content:'';
+	display: block;
+	width: 1px;
+	height: 26px;
+	margin-left: 1px;
+	background:linear-gradient(transparent 0%,#929499 50%,transparent 100%);
+	background:-webkit-linear-gradient(transparent 0%,#929499 50%,transparent 100%); 
+	background:-moz-linear-gradient(transparent 0%,#929499 50%,transparent 100%);
+	background:-o-linear-gradient(transparent 0%,#929499 50%,transparent 100%);
+	background:-ms-linear-gradient(transparent 0%,#929499 50%,transparent 100%);
+}

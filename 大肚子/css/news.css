@@ -1,0 +1,131 @@
+/* 成功案例 列表*/
+.section_r{
+	width: 941px;
+	float: right;
+}
+/* 成功案例 section_r */
+.success{
+	width: 941px;
+	height: 23px;
+	border-bottom: 2px solid #e1e1e1 ;
+	overflow:hidden;
+	padding-bottom: 9px;
+	padding-top: 30px;
+}
+.success_l{
+	font-size: 20px;
+	color: #30a56a;
+	float: left;
+}
+.success_l .bian{
+	width: 6px;
+	height: 24px;
+	float: left;
+	margin-right: 10px;
+}
+.success_l .bian div{
+	width: 6px;
+	height: 12px;
+}
+.success_l .bian div:nth-child(1){
+	background-color: #c8cbd2;
+}
+.success_l .bian div:nth-child(2){
+	background-color: #a4a7ad;
+}
+.success_r{
+	float: right;
+	color: #646464
+}
+.success_r i{
+	width: 11px;
+	height: 11px;
+	border-top: 1px solid #646464;
+	border-right: 1px solid #646464;
+	margin: 0 10px 0 3px;
+	transform: rotateZ(45deg);
+}
+.success_r a:hover{
+	text-decoration: underline;
+}
+
+
+/* 内容 */
+
+/* 新闻资讯的内容 */
+
+.news-content img{
+	float: left;
+	margin-bottom: 30px;
+}
+.news-content{
+	width: 880px;
+	padding-top: 10px;
+	margin-left: 30px;
+}
+.news-content li{
+	width: 880px;
+	height: 150px;
+	border-bottom: 1px solid #e1e1e1;
+	padding-top: 30px;
+}
+.news-content .jieshao h3{
+	margin-top: -5px;
+}
+.news-content .jieshao{
+	width: 668px;
+	margin-left: 11px;
+	float: left;
+	line-height: 40px;
+}
+.news-content .jieshao p{
+	font-size: 14px;
+	color: #646464;
+	margin-left: 10px;
+	line-height: 26px;
+}
+.news-content .jieshao p span{
+	color: #5bb383;
+}
+.news-content .jieshao a h3:hover{
+	color: #30a56a;
+	text-decoration: underline;
+}
+/*.news-content .jieshao p span a:hover{
+	color: red;
+}*/
+.fanye{
+	margin :30px;
+}
+.fanye span,.fanye i{
+	padding: 12px 16px;
+	font-size: 14px;
+	cursor: pointer;
+	color: #646464;
+	text-align: center;
+}
+.fanye span{
+	border:1px solid transparent;
+}
+.fanye i input{
+	width: 30px;
+	border: transparent;
+	border-bottom: 1px solid #646464;
+	outline: none;
+	text-align: center;
+}
+.fanye .ye_num{
+	padding: 12px 16px;
+	border: 1px solid #e1e1e1;
+}
+.fanye .Page_up,.fanye .Page_down{
+	padding: 12px 16px;
+}
+.fanye span:hover{
+	background: #f0f0f0;
+	border:1px solid #f0f0f0;
+}
+#num{
+	background: #f0f0f0;
+	border:1px solid #f0f0f0;
+}

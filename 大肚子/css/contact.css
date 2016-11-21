@@ -1,0 +1,96 @@
+/* 成功案例 列表*/
+.section_r{
+	width: 941px;
+	float: right;
+}
+/* 成功案例 section_r */
+.success{
+	width: 941px;
+	height: 23px;
+	border-bottom: 2px solid #e1e1e1 ;
+	overflow:hidden;
+	padding-bottom: 9px;
+	padding-top: 30px;
+}
+.success_l{
+	font-size: 20px;
+	color: #30a56a;
+	float: left;
+}
+.success_l .bian{
+	width: 6px;
+	height: 24px;
+	float: left;
+	margin-right: 10px;
+}
+.success_l .bian div{
+	width: 6px;
+	height: 12px;
+}
+.success_l .bian div:nth-child(1){
+	background-color: #c8cbd2;
+}
+.success_l .bian div:nth-child(2){
+	background-color: #a4a7ad;
+}
+.success_r{
+	float: right;
+	color: #646464
+}
+.success_r i{
+	width: 11px;
+	height: 11px;
+	border-top: 1px solid #646464;
+	border-right: 1px solid #646464;
+	margin: 0 10px 0 3px;
+	transform: rotateZ(45deg);
+}
+.success_r a:hover{
+	text-decoration: underline;
+}
+
+
+/* 内容 */
+/*联系我们*/
+.fangshi{
+	float: left;
+}
+.fangshi ul li{
+	margin-top: 20px;
+	color: #30a56a;
+	font-family:'Microsoft YaHei';
+	font-size: 18px;
+	line-height: 18px;
+}
+.fangshi ol{
+	float: left;
+	margin-top: -189px;
+	margin-left:55px; 
+}
+.fangshi ol li{
+	width: 300px;
+	margin-top: 20px;
+	color: black;
+	font-family:'Microsoft YaHei';
+	font-size: 18px;
+	line-height: 18px;
+}
+.ditu{
+	width: 948px;
+	height: 453px;
+	margin-top: 240px;
+	margin-left: -5px;
+}
+.ditu span{
+	font-size: 20px;
+	margin-left: 5px;
+}
+.ditu .map{
+	width: 948px;
+	height: 424px;
+	background: gray;
+	margin-left: 5px;
+}
+footer{
+	margin-top: 20px;
+}
